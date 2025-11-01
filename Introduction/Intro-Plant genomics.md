@@ -18,7 +18,8 @@
 - For example, tulips contain over 170 times as much DNA as the small weed Arabidopsis thaliana. 
 - The DNA of plants, like animals, can also contain regions of sequence repeats, sequence inversions, or transposable element insertions, which further modify their genetic content.
 - Traditionally, variation in chromosome inversions and ploidy has been used to build up a picture of how plant species have evolved.
-![Genome Size of Plants](Images/image_1.png)
+![Genome Size of Plants](Images/image_1.jpg)
+
 
 
 
