@@ -81,7 +81,7 @@ Other species in the genus include C. trifolia (North America) and C. japonica (
 
 **Ecological Adaptations:** Its adaptation to specific mountainous environments provides insights into genetic mechanisms of environmental tolerance relevant to plant biology and breeding.​
 
-# **Justification for use of Bioinformatics in Plant Genomics Study**
+# **Justification for using Bioinformatics in Plant Genomics Study**
 **Managing Large-scale Genomic Data:** Plant genomics projects generate enormous datasets from sequencing and other omics technologies that can only be efficiently processed and analyzed with bioinformatics tools.
 
 **Accelerating Crop Improvement:** Bioinformatics enables marker-assisted and genomic selection approaches, helping speed up breeding for improved yield, disease resistance, abiotic stress tolerance, and quality traits.
