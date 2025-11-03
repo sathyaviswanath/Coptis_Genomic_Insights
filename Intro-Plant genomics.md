@@ -2,80 +2,130 @@
 - A genome is the complete set of genetic material present in an organism, including all of its genes and non-coding sequences of DNA. 
 # **What is Genomics? (A study of genomes)**
 - It refers to the computer aided study of structure and function of entire genome (entire genetic compliment) of a living organism.
+
 - It deals with mapping of genes on the chromosomes and sequencing of genes in an organism. 
+
 - It is a rapid and accurate method of gene mapping more than the recombination mapping and deletion mapping techniques. 
+
 - The genomic techniques are highly powerful, efficient and effective in solving complex genetic problems. 
+
 - Now the use of genomic techniques has become indispensable in plant breeding and genetics.
 # **Origin of Terminology**
 - The term genomics was first used by Thomas Roderick in 1986 for “mapping, sequencing and characterizing genomes”.
+
 - Later the term genome was introduced in 1920 by the German botanist Hans Winkler (1877–1945) to describe “the haploid chromosome set, which, together with the pertinent protoplasm, specifies the material foundations of the species”.
+
 - Most crop plant genomes have billions of nucleotide bases - Arabidopsis thaliana has 120 million bases that encode approximately 25,000 genes.
+
 - The entire Arabidopsis genome was sequenced in 2000.
 # **What is Plant Genome?**
 - A plant genome is the complete set of DNA and genes in a plant, organized into chromosomes and containing the genetic instructions for that plant's life.
+
 - Plant genomes are more complex than other eukaryotic genomes, and analysis reveals many evolutionary flips and turns of the DNA sequences over time .
+
 - Plants show widely different chromosome numbers and varied ploidy levels. Overall, the size of plant genomes (both number of chromosomes and total nucleotide base- pairs) exhibits the greatest variation of any kingdom in the biological world. 
+
 - For example, tulips contain over 170 times as much DNA as the small weed Arabidopsis thaliana. 
+
 - The DNA of plants, like animals, can also contain regions of sequence repeats, sequence inversions, or transposable element insertions, which further modify their genetic content.
+
 - Traditionally, variation in chromosome inversions and ploidy has been used to build up a picture of how plant species have evolved.
 # **Evolutionary history of Wheat**
 - Domestic wheat arose in southwestern Asia in the hilly country of what is now Iraq. In this region, there is a rich assembly of grasses of the genus Triticum. Domestic wheat (T. aestivum) is a polyploid species of Triticum that arose through two so-called “allopolyploid” events. 
+    
     1. Two different diploid species, AA and BB, hybridized to form an AB polyploid; the species were so different that A and B chromosomes could not pair in meiosis, so the AB polyploid was sterile. However, in some plants the chromosome number spontaneously doubled due to a failure of chromosomes to separate in meiosis, producing a fertile tetraploid species AABB. This wheat is used in the production of pasta.
+    
     2. In a similar fashion, the tetraploid species AABB hybridized with another diploid species CC to produce the hexaploidy T. aestivum, AABBCC. This bread wheat is commonly used throughout the world.
 # **Organization of Plant Genome**
 - Most seed plants contain quantities of DNA that greatly exceed their needs for coding and regulatory function. Hence, for plants, a very small percentage of the genome may actually encode genes involved in the production of protein
+
 - This portion of the genome which encodes most of the transcribed genes is often referred to as “low- copy number DNA,” because the DNA sequences comprising these genes are present in single or small numbers of copies.
+
 - “Medium-copy number DNA” is composed largely of DNA sequences that encode ribosomal RNA (rRNA), a key element of the cellular machinery that translates transcribed messenger RNA (mRNA) into protein
+
 - In plant genomes, rRNA genes may be repeated several hundred to several thousand times
+
 - Plant cells may also contain excess DNA in their genomes in the form of highly repetitive sequences, or “high-copy-number DNA” 
 # *Sequence replication and inversion*
 - Several copies of a single repetitive DNA sequence may be present together in the same orientation, in a pattern called “simple tandem array”
+
 - Alternatively, repetitive DNA sequences can be dispersed among single-copy DNA in the same orientation (“repeat/single-copy interspersion”) or the opposite orientation (“inverted repeats”) 
+
 - In addition, groups of repetitive DNA sequences can also occur together in plant genomes in a variety of possible arrangements, such as a “compound tandem array” or a “repeat/repeat interspersion” 
+
 - The presence of repetitive DNA can vastly increase the size of a plant genome, making it difficult to find and characterize individual single-copy genes
+
 - Repetitive sequences can be generated by DNA sequence amplification in which multiple rounds of DNA replication occur for specific chromosomal regions
+
 - Unequal crossing over of the chromosomes during meiosis or mitosis (translocation) or the action of transposable elements can also generate repetitive sequences.
 # *Transposable Elements*
+
 - Special sequences of DNA with the ability to move from place to place in the genome. They can excise from one site at unpredictable times and reinsert in another site. For this reason, transposable elements have been called “jumping genes” 
+
 - Transposable elements often insert into coding regions or regulatory regions of a gene and so affect expression of that gene, resulting in a mutation that may or may not be detectable
+
 - Barbara McClintock won the Nobel Prize in 1983 for her work describing transposable elements in corn 
+
 - Due to their capacity to replicate independently and to move through the genome, transposable elements can also be involved in generating repetitive DNA sequences. 
 # **Types of Plant Genomes**
 ## **Nuclear Genome**
 - This is the largest and main part of the plant genome, containing the primary genetic material (DNA) organized into chromosomes within the cell's nucleus.
+
 - It carries the instructions for most of the plant's traits and functions, including its development, adaptability, and physical characteristics.
+
 - During cell division, mitosis, the genome condenses into a characteristic number of metaphase chromosomes, the nuclear membranes break down, and the chromosomes divide, moving into the two daughter cells before the nuclei reform.
 ### *Plant Nuclear Genome Size*
 - It ranges in size from less than 100million base pairs to more than 100 billion base pairs
+
 - The nuclear genome of rice consists of 450 million base pairs (Mbp) of DNA divided among the 12 chromosome pairs, and includes the genes that encode some 38 000 proteins
+
 - Along with their controlling sequences, these genes represent less than 10% of the total amount of DNA, and about half of all the DNA consists of repetitive motifs that are present thousands of times in the genome
+
 - Another fully sequenced plant genome, Arabidopsis (Arabidopsis thaliana) has a total of 157Mbp with about 31 000 genes on five chromosome pairs
 ## **Chloroplast Genome**
 - The chloroplast is a plant organelle that functions in photosynthesis and it can independently replicate in the plant cell
+
 - Plant chloroplasts have their own specific DNA, which is separate from that present in the nucleus. This DNA is maternally inherited and encodes unique chloroplast proteins 
+
 - Chloroplast DNA is present as circular loops of double-stranded DNA similar to prokaryotic chromosomal DNA
+
 - Moreover, chloroplast DNA contains genes for ribosomes that are very similar to those present in prokaryotes
+
 - The DNA in chloroplasts of all land plants has about the same number of genes (~100), and they are present in about the same order 
+
 - A characteristic feature of the chloroplast genome is the presence of two identical inverted repeats in the DNA sequence
+
 - Other DNA sequence inversions or deletions occur rarely, but when they do occur, they provide a character or a tool to analyze evolutionary relationships between plants
+
 - For instance, a large inversion in chloroplast DNA is found in the Asteraceae, or sunflower family, and not in other plant families.
 ## **Mitochondrial Genome**
 - Plant mitochondrial genomes are large, complex, and highly variable in size and structure
+
 - Contains mostly non-coding DNA, large introns, and repeats rather than numerous genes
+
 - Variability in size may be due to large size of non-coding regions
+
 - They encode essential proteins for cellular respiration but are distinct from the smaller, conserved animal genomes
+
 - A key feature is their very low mutation rate, which is attributed to a high frequency of homologous recombination that corrects errors, preventing the accumulation of selfish mutations
+
 - Most of the genes involved in protein synthesis or respiratory electron transport
+
 - It also contains chloroplast DNA known as Promiscuous DNA.
 # **Sub fields of Genomics**
 ## **Structural Genomics**
 - It deals with the study of the structure of entire genome of an organism. In other words, it deals with the study of the genetic structure of each chromosome of the genome. 
+
 - The genetic and physical mapping and sequencing of chromosomes.
+
 - It determines size of the genome of a species in Megabases (Mb) and also the number of genes present in the entire genome of a species.
 ## **Functional Genomics**
 - It deals with the study of function of all genes found in the entire genome of a living organism. 
+
 - It deals with Transcriptome (refers to complete set of RNAs transcribed from a genome) and Proteome (refers to complete set of proteins encoded by a genome)
+
 - Genomics can be classified based on the experimental material used and type of analysis carried out
+
 - Functional genomics assigns functions to each and every gene identified through structural genomics. Thus, function genomics is more complicated that structural genomics
 ## **Comparative Genomics**
 - Comparison of entire genomes across species, looking at functions and evolutionary relationships.
@@ -83,48 +133,72 @@
 - Plant genome mapping is the process of identifying the locations of genes and genetic markers on the chromosomes of plants, providing a detailed view of their genetic architecture. 
 ## **Purpose and Application of Plant Genome Mapping**
 - Genome mapping in plants helps pinpoint genes responsible for desirable traits such as disease resistance, yield, and stress tolerance. 
+
 - These maps are extensively used in plant breeding, gene cloning (map-based cloning), crop improvement programs, and comparative genomics.
+
 - Mapping also supports marker-assisted selection, allowing breeders to select plants carrying desired genes more efficiently.
 # **Types of Plant Genome Mapping**
 Plant genome mapping primarily includes two major types: **Genetic-linkage mapping and Physical mapping**. There is also **Comparative mapping**, which is less direct but very useful for studying related species.
 # **Genetic Linkage Mapping**
 Genetic linkage mapping is a fundamental technique in plant genetics that helps us understand the order and relative distances between genes or genetic markers on chromosomes. It is based on analyzing how frequently genes are inherited together during meiosis, which provides insights into their physical proximity.
+
 - Genetic linkage mapping involves creating a linear representation of genes or markers on a chromosome, where the position of each gene is determined relative to others based on recombination frequency. 
+
 - If two genes are close together, they tend to be inherited together more often; if far apart, recombination is more likely between them.
 ## **Process of Genetic Linkage Mapping**
-1.	Development of a Mapping Population: Cross two genetically diverse parents to produce a segregating population such as F2, backcross, or recombinant inbred lines.
-2.	Phenotyping and Genotyping: Record trait values and identify molecular markers (e.g., SSRs, SNPs) across individuals.
-3.	Calculating Recombination Frequencies: For each pair of markers, determine how often recombination occurs during meiosis, expressed as a percentage or in centimorgans (cM).
-4.	Constructing Linkage Groups: Markers that show low recombination frequencies and tend to be inherited together are grouped into linkage groups, representing chromosomes.
-5.	Ordering Markers: Use computational algorithms like LOD tests (Logarithm of the Odds) and maximum likelihood to find the most probable order of markers within each linkage group.
-6.	Map Validation: Check for errors and consistency, often by comparing with physical data or known genetic information.
+**1.	Development of a Mapping Population:** Cross two genetically diverse parents to produce a segregating population such as F2, backcross, or recombinant inbred lines.
+
+**2.	Phenotyping and Genotyping:** Record trait values and identify molecular markers (e.g., SSRs, SNPs) across individuals.
+
+**3.	Calculating Recombination Frequencies:** For each pair of markers, determine how often recombination occurs during meiosis, expressed as a percentage or in centimorgans (cM).
+
+**4.	Constructing Linkage Groups:** Markers that show low recombination frequencies and tend to be inherited together are grouped into linkage groups, representing chromosomes.
+
+**5.	Ordering Markers:** Use computational algorithms like LOD tests (Logarithm of the Odds) and maximum likelihood to find the most probable order of markers within each linkage group.
+
+**6.	Map Validation:** Check for errors and consistency, often by comparing with physical data or known genetic information.
 ## **Applications of Genetic Linkage Mapping**
 - **Gene Discovery:** Locating genes responsible for traits such as disease resistance, drought tolerance, and yield.
+
 - **QTL Mapping:** Identifying quantitative trait loci that influence complex traits.
+
 - **Marker-Assisted Selection:** Enabling breeders to select plants with desired traits by using linked markers, speeding up breeding cycles.
+
 - **Comparative Genomics:** Comparing maps across species to study genome evolution.
+
 - **Genome Assembly:** Providing a framework for sequencing projects by anchoring sequence data to genetic positions.
 # **Types of Genetic Linkage Maps**
 ## **Basic Linkage Mapping**
 - Constructed using classical genetic markers such as phenotypic traits or easily identifiable morphological characteristics. 
+
 - Based on analyzing segregation of traits in mapping populations derived from controlled crosses. Provides low-resolution maps with limited markers.
 ## **Molecular Marker-based Genetic Mapping**
 - Molecular marker-based genetic mapping uses DNA markers—specific DNA sequences with known locations—as landmarks to construct detailed linkage maps of plant genomes. 
+
 - These markers detect polymorphisms between individuals, which are variations in DNA sequence useful for tracking inheritance of genetic regions.
 ### *Principle*
 - Molecular markers identify polymorphic DNA regions that segregate among individuals in mapping populations.
+
 - By analyzing how these markers co-segregate, the relative genetic distances and order of markers on chromosomes are determined based on recombination frequencies.
+
 - Unlike phenotypic markers, molecular markers are abundant, often codominant, and can detect variation at the DNA level.
 ### **Common Molecular Marker Types**
 - **RAPD (Random Amplified Polymorphic DNA):** A PCR-based technique that uses random primers to amplify different regions of the genome, generating markers by detecting DNA polymorphisms. It is mainly used to find genetic differences and diversity, and to construct genetic linkage maps in plants. RAPD does not provide physical distances (measured in base pairs) but indicates genetic relationships and recombination frequencies between markers. 
+
 - **RFLP (Restriction Fragment Length Polymorphisms):** Involves digestion of DNA with restriction enzymes and separation of resulting fragments based on size. The resulting fragment patterns act as co-dominant markers for various loci. RFLP is extensively used for genetic linkage mapping by determining the inheritance pattern of markers in mapping populations. Like RAPD, RFLP provides information about marker order and relative genetic distances, not exact physical positions on chromosomes
+
 - **SSR (Simple Sequence Repeats or Microsatellites):** Short repetitive sequences that vary in repeat number.
+
 - **AFLP (Amplified Fragment Length Polymorphism):** Combine restriction digestion and selective PCR amplification.
+
 - **SNP (Single Nucleotide Polymorphisms):** Single base pair variations widely abundant in the genome.
 ## **High-Density Genetic Mapping**
 - Developed using large numbers of markers such as single nucleotide polymorphisms (SNPs) obtained by advanced sequencing and genotyping technologies.
+
 - Achieves saturated marker coverage with map distances often less than 1 cM between markers.
+
 - Allows precise mapping of quantitative trait loci (QTLs) and fine-scale genetic analyses.
+
 - Supports genome assembly and genomic selection
 # **Physical Mapping**
 Physical mapping determines the exact physical distances (in base pairs) between DNA features such as genes and markers along the chromosomes. 
