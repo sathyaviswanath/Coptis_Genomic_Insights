@@ -36,38 +36,7 @@
 
 - Constructing Phylogenetic Tree using tools like MEGA
 
-**5. Multi-Omics Integration and Systems Biology**
-- Collecting and preprocessing transcriptomic, proteomic, and metabolomic datasets.
-
-- Normalizing data and identifying key features.
-
-- Integrating datasets using AI-based integrative frameworks such as multi-omics factor analysis (MOFA) or deep learning autoencoders.
-
-- Constructing systems biology models to reveal relationships between gene expression, protein abundance, and metabolite levels.
-
-**6. Molecular Marker Development and Breeding Tools**
-- Detecting SNPs and other variants from population-level genomic data using GATK or SAMtools.
-
-- Associating genetic variants with traits via genome-wide association studies (GWAS).
-
-- Applying machine learning classifiers to predict impactful markers.
-
-- Designing and validating molecular markers (e.g., SSRs, SNPs) for breeding.
-
-- Developing marker-assisted selection pipelines.
-
-**7. Stress Response and Environmental Adaptation**
-- Analyzing stress-treated transcriptomes to identify differentially expressed genes.
-
-- Annotating genes involved in known stress pathways.
-
-- Using co-expression and network analysis to identify stress-responsive modules.
-
-- Predicting novel stress genes using AI classifiers trained on known abiotic/biotic stress genes.
-
-- Correlating stress response genes with secondary metabolite biosynthesis genes.
-
-**8. Protein Structure Prediction and Molecular Docking** 
+**5. Protein Structure Prediction and Molecular Docking** 
 - Predicting 3D structures of candidate biosynthetic enzymes using AI-based tools such as AlphaFold and RoseTTAFold for high-accuracy modeling.
 
 - Additionally, employing homology modeling using Swiss-Model, which builds protein models based on experimentally solved homologous structures from the Protein Data Bank (PDB).
@@ -78,7 +47,7 @@
 
 - Analyzing docking results including binding affinities and interaction sites to prioritize enzyme candidates for experimental validation.
 
-**9. Literature Mining and Pharmacogenomics** 
+**6. Literature Mining and Pharmacogenomics** 
 - Using Natural Language Processing (NLP) and AI-driven literature mining tools (e.g., BioBERT, SciSpacy) to extract detailed information on genes, enzymes, metabolites, and associated therapeutic effects from vast biomedical literature and databases.
 
 - Integrating this mined information with your genomic and metabolomic data to create a comprehensive database linking genetic features to bioactive compound profiles.
@@ -92,4 +61,36 @@
 - Generating hypotheses for experimental verification of therapeutic mechanisms and personalized medicine applications using medicinal plant compounds.
 
 - Utilizing bioinformatics resources such as DrugBank, ChEMBL, and PharmGKB for cross-referencing plant metabolites and known drugs or targets.
+
+**7. Multi-Omics Integration and Systems Biology**
+- Collecting and preprocessing transcriptomic, proteomic, and metabolomic datasets.
+
+- Normalizing data and identifying key features.
+
+- Integrating datasets using AI-based integrative frameworks such as multi-omics factor analysis (MOFA) or deep learning autoencoders.
+
+- Constructing systems biology models to reveal relationships between gene expression, protein abundance, and metabolite levels.
+
+**8. Molecular Marker Development and Breeding Tools**
+- Detecting SNPs and other variants from population-level genomic data using GATK or SAMtools.
+
+- Associating genetic variants with traits via genome-wide association studies (GWAS).
+
+- Applying machine learning classifiers to predict impactful markers.
+
+- Designing and validating molecular markers (e.g., SSRs, SNPs) for breeding.
+
+- Developing marker-assisted selection pipelines.
+
+**9. Stress Response and Environmental Adaptation**
+- Analyzing stress-treated transcriptomes to identify differentially expressed genes.
+
+- Annotating genes involved in known stress pathways.
+
+- Using co-expression and network analysis to identify stress-responsive modules.
+
+- Predicting novel stress genes using AI classifiers trained on known abiotic/biotic stress genes.
+
+- Correlating stress response genes with secondary metabolite biosynthesis genes.
+
 
