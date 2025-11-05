@@ -92,3 +92,4 @@
 - Generating hypotheses for experimental verification of therapeutic mechanisms and personalized medicine applications using medicinal plant compounds.
 
 - Utilizing bioinformatics resources such as DrugBank, ChEMBL, and PharmGKB for cross-referencing plant metabolites and known drugs or targets.
+
