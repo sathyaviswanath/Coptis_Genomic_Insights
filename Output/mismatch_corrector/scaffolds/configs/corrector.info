@@ -1,7 +1,0 @@
-"bwa": "/opt/conda/bin/spades-bwa"
-"dataset": "/workspaces/Coptis_Genomic_Insights/Output/input_dataset.yaml"
-"log_filename": "log.properties"
-"max_nthreads": !!int "4"
-"output_dir": "/workspaces/Coptis_Genomic_Insights/Output/mismatch_corrector/scaffolds"
-"strategy": "mapped_squared"
-"work_dir": "/workspaces/Coptis_Genomic_Insights/Output/tmp/corrector_mz6a_529"
