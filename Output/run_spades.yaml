@@ -1,0 +1,240 @@
+- STAGE: Before start
+  args: []
+  config_dir: ''
+  del_after: []
+  job_uuid: SPAdes_Before_start_5DFE0H9UDHC1Z1R9ZANOU1LK7LJFZGHN
+  mpi_support: false
+  output_files: []
+  path: 'true'
+  short_name: before_start
+- STAGE: Read error correction
+  args: []
+  config_dir: ''
+  del_after: []
+  job_uuid: SPAdes_Read_error_correction_Z1C7RLO9P3CYNRB10FPXU18N2JWERPBK
+  mpi_support: false
+  output_files: []
+  path: 'true'
+  short_name: ec_start
+- STAGE: Read error correction
+  args:
+  - /workspaces/Coptis_Genomic_Insights/Output/corrected/configs/config.info
+  config_dir: corrected
+  del_after:
+  - tmp/hammer_b_icksfq
+  job_uuid: SPAdes_Read_error_correction_I0DH4VRPYOFXYG6OFHEK15UIKWGU1Y5H
+  mpi_support: false
+  output_files:
+  - /workspaces/Coptis_Genomic_Insights/Output/corrected/corrected.yaml
+  path: /opt/conda/bin/spades-hammer
+  short_name: ec_runtool
+- STAGE: corrected reads compression
+  args:
+  - /opt/conda/share/spades/spades_pipeline/scripts/compress_all.py
+  - --input_file
+  - /workspaces/Coptis_Genomic_Insights/Output/corrected/corrected.yaml
+  - --ext_python_modules_home
+  - /opt/conda/share/spades
+  - --max_threads
+  - '4'
+  - --output_dir
+  - /workspaces/Coptis_Genomic_Insights/Output/corrected
+  - --gzip_output
+  config_dir: ''
+  del_after: []
+  job_uuid: SPAdes_corrected_reads_compression_BEC55GV055700092OAFKDQZIB28N9ZLW
+  mpi_support: false
+  output_files: []
+  path: /home/codespace/.python/current/bin/python3
+  short_name: ec_compress
+- STAGE: Read error correction
+  args: []
+  config_dir: ''
+  del_after: []
+  job_uuid: SPAdes_Read_error_correction_1N39QWTQ8K7CRM6603ADRCWMHJM1OB03
+  mpi_support: false
+  output_files: []
+  path: 'true'
+  short_name: ec_finish
+- STAGE: Assembling
+  args: []
+  config_dir: ''
+  del_after: []
+  job_uuid: SPAdes_Assembling_RNCZD4ZEMDFJ4N8ITJSBPYY0X4HONNI2
+  mpi_support: false
+  output_files: []
+  path: 'true'
+  short_name: as_start
+- STAGE: K21
+  args:
+  - /workspaces/Coptis_Genomic_Insights/Output/K21/configs/config.info
+  - /workspaces/Coptis_Genomic_Insights/Output/K21/configs/careful_mode.info
+  config_dir: K21
+  del_after: []
+  job_uuid: hpcSPAdes_K21_XNHMBOXMBJ2EJCLZQYZY9H2E9F3JPQ5P
+  mpi_support: true
+  output_files: []
+  path: /opt/conda/bin/{spades_core}
+  short_name: k21
+- STAGE: K33
+  args:
+  - /workspaces/Coptis_Genomic_Insights/Output/K33/configs/config.info
+  - /workspaces/Coptis_Genomic_Insights/Output/K33/configs/careful_mode.info
+  config_dir: K33
+  del_after: []
+  job_uuid: hpcSPAdes_K33_D6MEQ4H4VQQGABH744GMES99AUTA8G2Z
+  mpi_support: true
+  output_files: []
+  path: /opt/conda/bin/{spades_core}
+  short_name: k33
+- STAGE: K55
+  args:
+  - /workspaces/Coptis_Genomic_Insights/Output/K55/configs/config.info
+  - /workspaces/Coptis_Genomic_Insights/Output/K55/configs/careful_mode.info
+  config_dir: K55
+  del_after: []
+  job_uuid: hpcSPAdes_K55_BU42L9FC2L9S0F0XZID77QXC0T8KPH33
+  mpi_support: true
+  output_files: []
+  path: /opt/conda/bin/{spades_core}
+  short_name: k55
+- STAGE: K77
+  args:
+  - /workspaces/Coptis_Genomic_Insights/Output/K77/configs/config.info
+  - /workspaces/Coptis_Genomic_Insights/Output/K77/configs/careful_mode.info
+  config_dir: K77
+  del_after: []
+  job_uuid: hpcSPAdes_K77_XYAOZZ5X5PXS86JXUNN2HSJJ8ELPW72P
+  mpi_support: true
+  output_files: []
+  path: /opt/conda/bin/{spades_core}
+  short_name: k77
+- STAGE: Copy files
+  args:
+  - /opt/conda/share/spades/spades_pipeline/scripts/copy_files.py
+  - /workspaces/Coptis_Genomic_Insights/Output/K77/before_rr.fasta
+  - /workspaces/Coptis_Genomic_Insights/Output/before_rr.fasta
+  - /workspaces/Coptis_Genomic_Insights/Output/K77/assembly_graph_after_simplification.gfa
+  - /workspaces/Coptis_Genomic_Insights/Output/assembly_graph_after_simplification.gfa
+  - /workspaces/Coptis_Genomic_Insights/Output/K77/final_contigs.fasta
+  - /workspaces/Coptis_Genomic_Insights/Output/contigs.fasta
+  - /workspaces/Coptis_Genomic_Insights/Output/K77/first_pe_contigs.fasta
+  - /workspaces/Coptis_Genomic_Insights/Output/first_pe_contigs.fasta
+  - /workspaces/Coptis_Genomic_Insights/Output/K77/strain_graph.gfa
+  - /workspaces/Coptis_Genomic_Insights/Output/strain_graph.gfa
+  - /workspaces/Coptis_Genomic_Insights/Output/K77/scaffolds.fasta
+  - /workspaces/Coptis_Genomic_Insights/Output/scaffolds.fasta
+  - /workspaces/Coptis_Genomic_Insights/Output/K77/scaffolds.paths
+  - /workspaces/Coptis_Genomic_Insights/Output/scaffolds.paths
+  - /workspaces/Coptis_Genomic_Insights/Output/K77/assembly_graph_with_scaffolds.gfa
+  - /workspaces/Coptis_Genomic_Insights/Output/assembly_graph_with_scaffolds.gfa
+  - /workspaces/Coptis_Genomic_Insights/Output/K77/assembly_graph.fastg
+  - /workspaces/Coptis_Genomic_Insights/Output/assembly_graph.fastg
+  - /workspaces/Coptis_Genomic_Insights/Output/K77/final_contigs.paths
+  - /workspaces/Coptis_Genomic_Insights/Output/contigs.paths
+  config_dir: ''
+  del_after:
+  - .bin_reads
+  - tmp/spades_57xh9a0b
+  job_uuid: SPAdes_Copy_files_MR6UAICQZI6MDQQA0TBKIWTCUYMO1C7M
+  mpi_support: false
+  output_files: []
+  path: /home/codespace/.python/current/bin/python3
+  short_name: copy_files
+- STAGE: Assembling
+  args: []
+  config_dir: ''
+  del_after: []
+  job_uuid: SPAdes_Assembling_VOG2SCC1BSY15TS7RVD7RAC9C8LC3PRH
+  mpi_support: false
+  output_files: []
+  path: 'true'
+  short_name: as_finish
+- STAGE: Mismatch correction
+  args: []
+  config_dir: ''
+  del_after: []
+  job_uuid: SPAdes_Mismatch_correction_M6MCR4PIGB2DVWBERX8CQF5CEC9EGNRB
+  mpi_support: false
+  output_files: []
+  path: 'true'
+  short_name: mc_start
+- STAGE: Mismatch correction contigs
+  args:
+  - /opt/conda/share/spades/spades_pipeline/scripts/correction_iteration_script.py
+  - --corrected
+  - /workspaces/Coptis_Genomic_Insights/Output/contigs.fasta
+  - --assembled
+  - /workspaces/Coptis_Genomic_Insights/Output/misc/assembled_contigs.fasta
+  - --assembly_type
+  - contigs
+  - --output_dir
+  - /workspaces/Coptis_Genomic_Insights/Output
+  - --bin_home
+  - /opt/conda/bin
+  config_dir: mismatch_corrector/contigs
+  del_after:
+  - mismatch_corrector/contigs/tmp
+  - tmp/corrector_zl5y13a7
+  job_uuid: SPAdes_Mismatch_correction_contigs_RRR4SCZ4ZR4RWH4T2KA9K2D56V6JQL4W
+  mpi_support: false
+  output_files: []
+  path: /home/codespace/.python/current/bin/python3
+  short_name: mc_contigs
+- STAGE: Mismatch correction scaffolds
+  args:
+  - /opt/conda/share/spades/spades_pipeline/scripts/correction_iteration_script.py
+  - --corrected
+  - /workspaces/Coptis_Genomic_Insights/Output/scaffolds.fasta
+  - --assembled
+  - /workspaces/Coptis_Genomic_Insights/Output/misc/assembled_scaffolds.fasta
+  - --assembly_type
+  - scaffolds
+  - --output_dir
+  - /workspaces/Coptis_Genomic_Insights/Output
+  - --bin_home
+  - /opt/conda/bin
+  config_dir: mismatch_corrector/scaffolds
+  del_after:
+  - mismatch_corrector/scaffolds/tmp
+  - tmp/corrector_k1abnreo
+  job_uuid: SPAdes_Mismatch_correction_scaffolds_TMIV5XOPZVO9DWY9SKDOP67U8QBOC7AG
+  mpi_support: false
+  output_files: []
+  path: /home/codespace/.python/current/bin/python3
+  short_name: mc_scaffolds
+- STAGE: Mismatch correction
+  args: []
+  config_dir: ''
+  del_after: []
+  job_uuid: SPAdes_Mismatch_correction_UGHRTWJ10WLJMGOS03S5IH1ZMY1UVU9P
+  mpi_support: false
+  output_files: []
+  path: 'true'
+  short_name: mc_finish
+- STAGE: Breaking scaffolds
+  args:
+  - /opt/conda/share/spades/spades_pipeline/scripts/breaking_scaffolds_script.py
+  - --result_scaffolds_filename
+  - /workspaces/Coptis_Genomic_Insights/Output/scaffolds.fasta
+  - --misc_dir
+  - /workspaces/Coptis_Genomic_Insights/Output/misc
+  - --threshold_for_breaking_scaffolds
+  - '3'
+  config_dir: ''
+  del_after: []
+  job_uuid: SPAdes_Breaking_scaffolds_4TNXQXTLIYO5F95YI9PY84ARBU927I3N
+  mpi_support: false
+  output_files: []
+  path: /home/codespace/.python/current/bin/python3
+  short_name: bs
+- STAGE: Terminate
+  args: []
+  config_dir: ''
+  del_after:
+  - configs
+  job_uuid: SPAdes_Terminate_DSCQNPUFJL6DQS8BR98J21J928RKT3ZO
+  mpi_support: false
+  output_files: []
+  path: 'true'
+  short_name: terminate

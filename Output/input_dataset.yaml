@@ -1,0 +1,7 @@
+- "left reads":
+  - "/workspaces/Coptis_Genomic_Insights/Raw_Data/SRR12632749_1_300k.fastq"
+  "number": !!int "1"
+  "orientation": "fr"
+  "right reads":
+  - "/workspaces/Coptis_Genomic_Insights/Raw_Data/SRR12632749_2_300k.fastq"
+  "type": "paired-end"
