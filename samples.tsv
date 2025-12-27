@@ -1,0 +1,8 @@
+sample  condition  path
+LS1     LS         Output/RNAseq/salmon_quant/LS1
+LS2     LS         Output/RNAseq/salmon_quant/LS2
+LS3     LS         Output/RNAseq/salmon_quant/LS3
+ES1     ES         Output/RNAseq/salmon_quant/ES1
+ES2     ES         Output/RNAseq/salmon_quant/ES2
+ES3     ES         Output/RNAseq/salmon_quant/ES3
+

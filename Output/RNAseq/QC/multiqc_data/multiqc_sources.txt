@@ -1,0 +1,13 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	LS2_R2	/workspaces/Coptis_Genomic_Insights/Output/RNAseq/QC/LS2_R2_fastqc.zip
+FastQC	all_sections	LS1_R1	/workspaces/Coptis_Genomic_Insights/Output/RNAseq/QC/LS1_R1_fastqc.zip
+FastQC	all_sections	ES1_R2	/workspaces/Coptis_Genomic_Insights/Output/RNAseq/QC/ES1_R2_fastqc.zip
+FastQC	all_sections	ES2_R1	/workspaces/Coptis_Genomic_Insights/Output/RNAseq/QC/ES2_R1_fastqc.zip
+FastQC	all_sections	LS3_R1	/workspaces/Coptis_Genomic_Insights/Output/RNAseq/QC/LS3_R1_fastqc.zip
+FastQC	all_sections	ES1_R1	/workspaces/Coptis_Genomic_Insights/Output/RNAseq/QC/ES1_R1_fastqc.zip
+FastQC	all_sections	LS1_R2	/workspaces/Coptis_Genomic_Insights/Output/RNAseq/QC/LS1_R2_fastqc.zip
+FastQC	all_sections	ES2_R2	/workspaces/Coptis_Genomic_Insights/Output/RNAseq/QC/ES2_R2_fastqc.zip
+FastQC	all_sections	ES3_R2	/workspaces/Coptis_Genomic_Insights/Output/RNAseq/QC/ES3_R2_fastqc.zip
+FastQC	all_sections	ES3_R1	/workspaces/Coptis_Genomic_Insights/Output/RNAseq/QC/ES3_R1_fastqc.zip
+FastQC	all_sections	LS2_R1	/workspaces/Coptis_Genomic_Insights/Output/RNAseq/QC/LS2_R1_fastqc.zip
+FastQC	all_sections	LS3_R2	/workspaces/Coptis_Genomic_Insights/Output/RNAseq/QC/LS3_R2_fastqc.zip
