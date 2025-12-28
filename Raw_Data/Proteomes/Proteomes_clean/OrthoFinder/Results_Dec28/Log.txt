@@ -1,0 +1,20 @@
+2025-12-28 16:59:56 : Started OrthoFinder version 3.1.1
+Command Line: /opt/conda/envs/coptis_compgen/bin/orthofinder -f Proteomes_clean -t 4
+
+Search program: diamond
+MSA program: famsa
+Tree program: fasttree
+Scoring matrix: BLOSUM62
+Gap extend: 1
+Gap open: 11
+
+WorkingDirectory_Base: /workspaces/Coptis_Genomic_Insights/Raw_Data/Proteomes/Proteomes_clean/OrthoFinder/Results_Dec28/WorkingDirectory/
+
+Species used: 
+0: Aquilegia.faa
+1: Arabidopsis.faa
+2: Coptis.faa
+3: Thalictrum.faa
+
+FN_Orthogroups: /workspaces/Coptis_Genomic_Insights/Raw_Data/Proteomes/Proteomes_clean/OrthoFinder/Results_Dec28/WorkingDirectory/clusters_OrthoFinder_I1.2.txt_id_pairs.txt
+WorkingDirectory_Trees: /workspaces/Coptis_Genomic_Insights/Raw_Data/Proteomes/Proteomes_clean/OrthoFinder/Results_Dec28/WorkingDirectory/

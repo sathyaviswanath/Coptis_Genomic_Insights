@@ -1,0 +1,4 @@
+0: Aquilegia.faa
+1: Arabidopsis.faa
+2: Coptis.faa
+3: Thalictrum.faa
