@@ -79,13 +79,26 @@ Understanding its genomic architecture can provide insights into:
 
 ---
 
-## 🛠 Tools and Technologies Used
+## 🛠️ Tools and Technologies Used
 
 * **Genome Assembly:** De novo assembly tools - SAPdes, QUAST and EMBOSS getorf
 * **Annotation Platform:** Galaxy
 * **Functional Annotation:** eggNOG-mapper
 * **Programming & Analysis:** Python
 * **Visualization:** Jupyter Notebook, Matplotlib, Seaborn
+
+---
+
+### Tool Specification Table
+
+| Tool                                     | Purpose in pipeline                                                                                                                                                   | Key input                                                                   | Key output                                                            |
+| ---------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| FastQC                                   | Quality control of raw or subsampled FASTQ reads; generates per‑sample QC reports (per‑base quality, GC content, adapters, etc.)​           | Paired‑end FASTQ files (SRR12632749_1_300k.fastq, SRR12632749_2_300k.fastq) | HTML and .zip QC reports in QC/                                       |
+| Fastp  | Optional read trimming and filtering to remove low‑quality bases and adapters before assembly​                                                               | Raw FASTQ reads                                                             | Cleaned FASTQ reads written to Output/                                |
+| Seqtk                                    | Lightweight toolkit used here to randomly subsample a fixed number of reads from each FASTQ file for a smaller test dataset​                                   | Original gzipped FASTQ files from ENA                                       | Subsampled FASTQ files (*_300k.fastq)                                 |
+| SPAdes                                   | Short‑read genome assembler that builds contigs from paired‑end reads using a de Bruijn‑graph approach​                 | Paired‑end FASTQ reads                                                      | Assembled contigs and scaffolds (Output/contigs.fasta plus log files) |
+| QUAST                                    | Quality assessment tool that compares the assembly to a reference and reports metrics such as N50, total length, misassemblies, and gene coverage​ | Assembly FASTA (contigs.fasta), reference CDS FASTA                         | HTML/text reports and summary tables in Assembly_QC/                  |
+| EMBOSS getorf                            | ORF finder that scans assembled contigs and extracts open reading frames above a chosen length threshold                                  | Assembly FASTA (contigs.fasta)                                              | Predicted protein sequences in FASTA format (ORF/contigs_orfs.faa)    |
 
 ---
 
@@ -113,13 +126,16 @@ Coptis_Genomic_Insights/
 │   ├── 5_ORF_Functional_Pathway_Annotation.md
 │   └── 6_ORF_Functional_Annotation_Interpretation.md
 │
-├── Raw_Data/
-│
-├── Output/
-│
 ├── Images/
-    ├── Barplots/
-    └── Piecharts/
+|    ├── Barplots/
+|    └── Piecharts/
+|    
+├── Jupyter_notebook/
+|
+├── Output/
+|
+├── Raw_Data/
+
 
 ```
 ---
